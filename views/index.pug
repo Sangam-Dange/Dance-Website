@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    title Sangam Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+                img(src="../static/img/logo.png")
+                | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    section#introsection 
+        div Welcome to Sangam's Dance club
+        div.small Eat Dance Repeat
+    section#missionsection 
+        h2 section for Mission
+        div.container 
+            div.card 
+                h3 Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/1.png", alt="")
+                    div.card-content 
+                        p This is the best dance academy of the world
+            div.card 
+                h3 Dance the way you like
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/2.png", alt="")
+                    div.card-content 
+                        p This is the best dance academy of the world
+            div.card 
+                h3 Expert teaching
+                div.card-box 
+                    div.card-img#img3 
+                        img(src="../static/img/3.png", alt="")
+                    div.card-content 
+                        p This is the best dance academy of the world
+    section#sponsersection 
+        h2 section for sponsers
+        div.sponser-box 
+            img(src="../static/img/logo1.png", alt="")
+            img(src="../static/img/logo2.png", alt="")
+            img(src="../static/img/logo3.png", alt="")
+            img(src="../static/img/logo4.png", alt="")
+    footer#footer
+        | Copyright &copy 2021 Sangam Dance Academy 
+        | All Right Reserved
+    script
+      include ../static/index.js

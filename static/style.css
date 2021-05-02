@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400&family=Zen+Dots&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    z-index: -1;
+    color: white;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+     
+}
+#logo img{
+    height: 40px;
+    
+    filter: invert(1);
+}
+#navbar{
+    padding: 18px;
+   background-color: rgb(0, 0, 0) ;
+   font-family: 'Zen Dots', cursive;
+   color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li a{
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 1.12rem;
+}
+#navbar li a:hover{
+    color: teal;
+}
+
+#introsection{
+    display: flex;
+    flex-direction: column;
+    background:center center/cover no-repeat url('/static/bg3.jpg');
+    height: 500px;
+    color:rgb(186, 35, 57);
+    font-family: 'Karantina', cursive;
+    font-size: 3rem;
+}
+#introsection div{
+    padding: 5px;
+    padding-left: 15px;
+}
+#introsection div.small{
+
+     font-size: 2.4rem;
+}
+
+#missionsection{
+    height: 300px;
+    background-color: rgb(214, 34, 79);
+    width: 1100px;
+    margin: auto;
+    border-radius: 15px;
+    color: black;
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Zen Dots', cursive;
+ }
+ .container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .card{
+     border: rgb(0, 0, 0) 2px solid ;
+     border-radius:20px ;
+     height: 200px;
+     width: 320px;
+     padding:7px 5px;
+     margin: 20px 15px;
+     color: rgb(0, 0, 0);
+     box-shadow: 4px 4px 80px black;
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     
+ }
+ .card h3{
+    text-align: center;
+    
+ }
+
+ .card-box{
+     margin-top: 7px;
+     display: flex;
+     justify-items: space-between;    
+     align-items: center;
+ }
+ .card-img{
+     
+     height: 130px;
+     padding: 0px 5px;
+     
+ }
+ .card-img img{
+     height: inherit;
+     
+ }
+#img3{
+  margin-left: 10px;
+ }
+
+
+
+ .card-content p{
+     font-size: 1.2rem;
+
+ } 
+#sponsersection{
+    height: 200px;
+    color: white;}
+
+    #sponsersection h2{
+   text-align: center;
+   padding-top: 4px;
+   font-family: 'Zen Dots', cursive;
+}
+
+.sponser-box{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+.sponser-box img{
+    height: 100px;
+    margin: 30px 20px;
+}
+#footer{
+    
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
